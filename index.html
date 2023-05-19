@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenido!</h1>
+    <h2>Por favor, completa el siguiente formulario para inscribirte en el curso de MDP programa</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="documento">Documento:</label>
+        <input type="number" id="documento" name="documento" required>
+
+        Seleccione su pais:
+        <select name="pais">
+            <option value="1">Argentina</option>
+            <option value="2">España</option>
+            <option value="3">Mexico</option>
+            <option value="4">Guatemala</option>
+            <option value="5">Honduras</option>
+            <option value="6">El Salvador</option>
+            <option value="7">Venezuela</option>
+        </select>
+
+        <br>
+
+        <label for="trabajo">¿Trabaja?</label>
+        <input type="radio" id="trabajo-si" name="trabajo" value="trabajo-si">
+        <label for="trabajo-si">Si.</label>
+        <input type="radio" id="trabajo-no" name="trabajo" value="trabajo-no">
+        <label for="trabajo-no">No.</label>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
